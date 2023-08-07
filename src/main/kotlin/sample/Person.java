@@ -1,7 +1,7 @@
 package sample;
 
 public class Person {
-    final String name;
+    final public String name;
     public Person(String name) {
         this.name = name;
     }
