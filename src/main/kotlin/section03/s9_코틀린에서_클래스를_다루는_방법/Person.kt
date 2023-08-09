@@ -1,4 +1,4 @@
-package section03.s09_코틀린에서_클래스를_다루는_방법
+package section03.s9_코틀린에서_클래스를_다루는_방법
 
 /*class Person constructor(name: String, age: Int){
     val name: String = name

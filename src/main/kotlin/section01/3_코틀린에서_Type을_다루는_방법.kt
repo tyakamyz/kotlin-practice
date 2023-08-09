@@ -14,7 +14,7 @@ fun main() {
 }
 
 /* 일반 타입 캐스팅 */
-fun printAgeIfPerson(obj: Any) {
+fun printAgeIfPerson1(obj: Any) {
     if (obj is Person) {            // if (obj instabceif)
         //val person = obj as Person  // (Person) obj
         val person = obj            // as Person 생략 가능. 스마트 캐스트
@@ -29,7 +29,7 @@ fun printAgeIfPerson(obj: Any) {
 }
 
 /* null이 존재하는 일반 타입일 경우 */
-fun printAgeIfPerson(obj: Any?) {
+fun printAgeIfPerson2(obj: Any?) {
     val person: Person? = obj as? Person    // ? 연산자를 통해 세이프 콜
     println(person?.name)
 }
